@@ -1,0 +1,33 @@
+{
+  "name": "info-hive",
+  "owner": {
+    "name": "to884"
+  },
+  "metadata": {
+    "description": "info-hive の Claude Code プラグインを配るマーケットプレイス。"
+  },
+  "plugins": [
+    {
+      "name": "wiki",
+      "source": {
+        "source": "github",
+        "repo": "to884/info-hive-wiki"
+      },
+      "description": "日本語の Markdown の wiki を、ローカルのハイブリッド検索、出典つきの根拠、グラフで構築・保守する。タスクの経験を記録し、スキルの改善案を評価して適用・ロールバックできる。info-hive スキルと 9 本の /wiki:* コマンドを含む。",
+      "author": {
+        "name": "to884"
+      },
+      "homepage": "https://github.com/to884/info-hive-wiki",
+      "repository": "https://github.com/to884/info-hive-wiki",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "knowledge-base",
+        "wiki",
+        "notes",
+        "research",
+        "japanese"
+      ]
+    }
+  ]
+}
