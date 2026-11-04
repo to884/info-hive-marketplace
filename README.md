@@ -19,7 +19,7 @@ Claude Code で、マーケットプレイスを追加してからプラグイ�
 
 | プラグイン | 入れるときの名前 | リポジトリ | 内容 |
 | --- | --- | --- | --- |
-| wiki | `wiki@info-hive` | [to884/info-hive-wiki](https://github.com/to884/info-hive-wiki) | 日本語に特化した LLM Wiki。日本語の Markdown の wiki を、ローカルのハイブリッド検索、出典つきの根拠、グラフで構築・保守する。`/wiki:*` のコマンドを 9 本含む。 |
+| wiki | `wiki@info-hive` | [to884/info-hive-wiki](https://github.com/to884/info-hive-wiki) | 日本語に特化した LLM Wiki。日本語の Markdown の wiki を構築・保守する。日本語に対応したローカルのハイブリッド検索（BM25 と多言語の埋め込み）、出典つきの回答、任意の型付きグラフ、Shift_JIS などのソースの文字コードの変換を備える。タスクの経験を記録し、スキルの改善案を評価して適用・ロールバックできる。`/wiki:*` のコマンドを 10 本含み、一覧は `/wiki:help` で見られる。 |
 | rag | `rag@info-hive` | [to884/info-hive-rag](https://github.com/to884/info-hive-rag) | `wiki@info-hive` に依存する RAG（検索拡張生成）のプラグイン。現在は初期構成のみ。 |
 
 ## 旧リポジトリ to884/info-hive から移るとき
