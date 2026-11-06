@@ -35,7 +35,7 @@
         "source": "github",
         "repo": "to884/info-hive-rag"
       },
-      "description": "wiki@info-hive に依存し、RAG（検索拡張生成）を扱う info-hive の Claude Code プラグイン。現在は初期構成のみ。",
+      "description": "wiki@info-hive に依存し、RAG（検索拡張生成）を扱う info-hive の Claude Code プラグイン。PDF の抽出、必要なページの OCR、埋め込み、索引化を永続ジョブとして進め、Claude Code を終えても次の接続時に再開する。日本語に対応したローカルのハイブリッド検索（BM25 と埋め込み）を MCP で提供する。3 本の /rag:* コマンド（setup、status、search）を含む。",
       "author": {
         "name": "to884"
       },
