@@ -11,8 +11,6 @@ Claude Code で、マーケットプレイスを追加してからプラグイ�
 /plugin install wiki@info-hive
 ```
 
-このリポジトリとプラグインのリポジトリは、どちらも非公開なので、入れるには GitHub の認証情報が要る。HTTPS なら `gh auth login` のあとに `gh auth setup-git` を実行しておく。SSH なら、パスフレーズを聞かれない鍵を用意しておく。
-
 新しいバージョンを取り込むときは、`/plugin marketplace update` のあとに `/plugin install wiki@info-hive` を実行する。
 
 ## 載っているプラグイン
