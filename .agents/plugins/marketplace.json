@@ -1,0 +1,20 @@
+{
+  "name": "info-hive",
+  "interface": {
+    "displayName": "info-hive"
+  },
+  "plugins": [
+    {
+      "name": "wiki",
+      "source": {
+        "source": "github",
+        "repo": "to884/info-hive-wiki"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
